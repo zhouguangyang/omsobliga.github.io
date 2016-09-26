@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "The Art of UNIX Programming"
+title: "UNIX 编程艺术"
 meta: The Art of UNIX Programming
 draft: false
-category: [UNIX, Programming]
+category: [unix, books]
 ---
 
 **UNIX 哲学浓缩为一条铁律，那就是 KISS 原则：Keep It Simple, Stupid!** 通俗地讲就是：一个程序只做一件事，并做好。
@@ -116,3 +116,5 @@ category: [UNIX, Programming]
 5. 脚本能力
 
    接口能够容易被其他程序调用。（模块化）
+
+[UNIX 编程艺术](https://book.douban.com/subject/1467587/)

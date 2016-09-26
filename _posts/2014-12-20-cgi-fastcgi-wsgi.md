@@ -2,7 +2,7 @@
 layout: post
 title: "从 CGI、FastCGI、WSGI 角度来了解 Web 的发展"
 description: ""
-category: web
+category: [web]
 ---
 
 Web 技术发展这么多年，在用户看来只有两部分 HTTP request 和 HTTP response，即：发送请求和返回结果。那从服务器角度观察，在简单的 HTTP request 和 HTTP response 之间又进行了如何的处理实现？

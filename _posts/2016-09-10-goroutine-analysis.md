@@ -23,9 +23,11 @@ Communicating Sequential Processes，译为通信顺序进程。是一种形式�
 > `COPY = *[c:character; west?c → east!c]`  
 > the process repeatedly receives a character from the process named west, and then sends that character to process named east. The parallel composition  
 > `[west::DISASSEMBLE || X::COPY || east::ASSEMBLE]`  
-> assigns the names west to the DISASSEMBLE process, X to the COPY process, and east to the ASSEMBLE process, and executes these three processes concurrently.[3]  
+> assigns the names west to the DISASSEMBLE process, X to the COPY process, and east to the ASSEMBLE process, and executes these three processes concurrently.[3]
 
-CSP 通过把输入/输出和并发环境下的进程通信作为基础的方法和结构。定义了一套自己的原语，包括：并发执行，输入/输出，循环执行，条件判断等。然后用定义好的语法去实现一些常见的问题，比如：协程，数论，经典的同步问题（生产者消费者，哲学家就餐）。
+CSP 通过把输入和输出作为编程的基本原语，把顺序通信进程的并行组合作为基本方法。通过定义自己的原语，然后用定义好的语法去实现一些常见的问题，比如：协程，数论，经典的同步问题（生产者消费者，哲学家就餐）。
+
+> This paper suggests that input and output are basic primitives of programming and that parallel composition of communicating sequential processes is a fundamental program structuring method.[4]
 
 通过 CSP 的定义，使并发编程能在更高的层次实现，编写的程序不需要关心底层的资源共享、加锁、调度切换等细节，使并发程序的编写更简单。[6]
 

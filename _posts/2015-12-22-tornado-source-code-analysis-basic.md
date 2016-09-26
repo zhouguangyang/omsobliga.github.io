@@ -3,7 +3,7 @@ layout: post
 title: Tornado 源码分析 - 基础篇
 meta: tornado source code analysis - basic
 draft: false
-category: tornado
+category: [tornado, reactor]
 ---
 
 源码分析基于 [Tornado 2.0](https://pypi.python.org/pypi/tornado/2.0) 版本，2.0 版本时候 Tornado 的介绍还是：

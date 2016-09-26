@@ -2,7 +2,7 @@
 layout: post
 title: "浅谈 TCP"
 description: ""
-category: TCP
+category: [tcp]
 ---
 
 这篇文章介绍 TCP 理论，主要分为「TCP 连接，TCP 优化，TCP 重连」三个方面。看[《TCP/IP 详解》](http://book.douban.com/subject/1088054/) TCP 章节时候有些疑问，网上也搜到一些有价值的信息，整理后记录成文章，同时加深下自己的理解。

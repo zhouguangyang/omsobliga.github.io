@@ -3,7 +3,7 @@ layout: post
 title: Tornado 源码分析 - 异步篇
 meta: tornado source code analysis - asynchronous
 draft: false
-category: [tornado, concurrency]
+category: [tornado, reactor, concurrency]
 ---
 
 Tornado 所谓的异步就是：
